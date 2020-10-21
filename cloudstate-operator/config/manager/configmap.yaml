@@ -13,7 +13,7 @@ data:
       # args:
       # - "-Dconfig.resource=in-memory.conf"
     postgres:
-      image: cloudstateio/cloudstate-proxy-postgres:latest
+      image: lightbend/cloudstate-proxy-postgres:1.0
     cassandra:
       image: cloudstateio/cloudstate-proxy-cassandra:latest
     # sidecarMetrics:
